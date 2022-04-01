@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="src/logo.svg" type="image/x-icon">
+        <title>Portifólio</title>
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <!-- Icons -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    
+        <!-- JavaScript Bootstrap-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+<body class="primary-color">
+    
+    <!--NAV BAR-->
+    <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+        <div class="container py-2">
+            <a href="#" class="navbar-brand">
+                <span class="green-color">&lt</span>
+                <span class="green-color">/PH&gt</span>
+                
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-items" aria-controls="navbar-items" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="bi bi-list secondary-color"></i> 
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-items">
+                <ul class="navbar-nav me-auto mb-2-lg-0">
+                    <li class="nav-item active" id="home_">
+                        <a href="#" class="nav-link secondary-color">Home</a>
+                    </li>
+                    <li class="nav-item" id="sobre_">
+                        <a href="#Sobre" class="nav-link secondary-color">Sobre</a>
+                    </li>
+                    <li class="nav-item" id="projeto_">
+                        <a href="#Projetos" class="nav-link secondary-color">Projetos</a>
+                    </li>
+                    <li class="nav-item" id="contato_">
+                        <a href="#Contato" class="nav-link secondary-color">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--CONTEUDO-->
+    <main>
+
+        <div class="container-fluid" id="Home">
+            <div class="row justify-content-md-center align-items-center" id="home-top">
+              <div class="col-12 col-lg-6 mt-5 secondary-color">
+                <h1>Olá, eu sou
+                    <br>
+                    <span>Paulo Henrique</span>
+                </h1>
+                <p class="green-color" id="efeito">Desevolvedor Full-Stack</p>
+              </div>
+              <div class="col-12 col-lg-5">
+                <img src="src/imagem-1.svg" alt="Imagem-progamador" width="300px" height="300px"> 
+              </div>
+            </div>
+
+            <!--SOBRE MIM-->
+            <div class="container-fluid" id="Sobre">
+              <h3 class="title secondary-color">Sobre Mim</h3>
+                <div class="row mt-5" id="home-description">
+                  <div class="col-12 position-relative">
+                    <img src="src/foto.svg" class="img-fluid top-50 start-50 translate-middle" alt="Imagem Sobre" width="400px" height="400px">
+                  </div>
+                  <div class="col-12 mt-5 mb-5 position-relative">
+                      <p class="secondary-color top-50 start-50 translate-middle">Meu nome é <strong>Paulo Henrique Oliveira Ferreira</strong>, tenho 18 anos trabalho como auxiliar de escritório em uma entidade, moro na Praia Grande/SP e estou começando a minha carreira de desenvolvedor full-stack, já tenho conhecimentos em HTML, CSS, JavaScript(ES6) e Bootstrap.</p>
+                  </div>
+                  <div class="col-3 position-relative">
+                    <img src="src/iconhtml.svg" class="img-fluid top-50 start-50 translate-middle" title="HTML" alt="HTML" width="100px" height="100px">
+                </div>
+                <div class="col-3 position-relative">
+                  <img src="src/iconcss.svg" class="img-fluid top-50 start-50 translate-middle" title="CSS" alt="CSS" width="100px" height="100px">
+              </div>
+              <div class="col-3 position-relative">
+                <img src="src/iconjavascript.svg" class="img-fluid top-50 start-50 translate-middle" title="JAVASCRIPT" alt="JAVASCRIPT" width="100px" height="100px">
+            </div>
+            <div class="col-3 position-relative">
+              <img src="src/iconbootstrap.svg" class="img-fluid top-50 start-50 translate-middle" title="BOOTSTRAP" alt="BOOTSTRAP" width="100px" height="100px">
+          </div>
+                </div>
+            </div>
+
+            <!--PROJETOS-->
+            <div class="container-fluid" id="Projetos">
+                <h3 class="title secondary-color">Projetos</h3>
+                    <div class="row mt-5 mb-4">
+                        <div class="list-project" id="Projetos2">
+                            <li id="btn-site" class="nav-item secondary-color btn-project active" role='button' data-bs-toggle="collapse" data-bs-target="#Sites" aria-expanded="false" aria-controls="collapse">Sites</li>
+                            <li id="btn-jogo" class="nav-item secondary-color btn-project" role='button' data-bs-toggle="collapse" data-bs-target="#Jogos" aria-expanded="false" aria-controls="collapse">Jogos</li>             
+                        </div>
+                    </div>
+                  <div class="row">
+                    <div class="col-12" id="mesma">
+                      <div class="collapse show" id="Sites" data-bs-parent="#mesma">
+                        <div class="card card-body primary-color">
+                            <div class="row row-cols-1 row-cols-md-3 g-4">
+                                <div class="col-12">
+                                  <div class="card primary-color">
+                                    <a href="src/Projeto - Bootstrap/home.html"><img src="src/iMove.JPG" class="img-thumbnail" role='button' alt="foto-site-iMove"></a>
+                                    <div class="card-body">
+                                      <h5 class="card-title secondary-color">iMove</h5>
+                                      <p class="card-text secondary-color">Site demostrativo para afins educativos. <br>Tecnologias Usadas:<br><br>-HTML<br>-CSS<br>-BOOSTRAP</p>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-12">
+                                  <div class="card h-100 primary-color">
+                                    <img src="src/coming-soon.jpg" class="img-thumbnail" role='button' alt="img-em-breve">
+                                    <div class="card-body">
+                                      <h5 class="card-title secondary-color">Em Construção</h5>
+                                      <p class="card-text secondary-color">Em breve terá mais sites demostrativos.</p>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-12">
+                                  <div class="card h-100 primary-color">
+                                    <img src="src/coming-soon.jpg" class="img-thumbnail" role='button' alt="img-em-breve">
+                                    <div class="card-body">
+                                      <h5 class="card-title secondary-color">Em Construção</h5>
+                                      <p class="card-text secondary-color">Em breve terá mais sites demostrativos.</p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                      </div>
+                      <div class="collapse" id="Jogos" data-bs-parent="#mesma">
+                        <div class="card card-body primary-color">
+                            <div class="row row-cols-1 row-cols-md-3 g-4" data-bs-parent="#mesma">
+                                <div class="col-12">
+                                  <div class="card h-100 primary-color">
+                                    <img src="src/coming-soon.jpg" class="img-thumbnail" role='button' alt="img-em-breve">
+                                    <div class="card-body">
+                                      <h5 class="card-title secondary-color">Em Construção</h5>
+                                      <p class="card-text secondary-color">Em breve terá mais jogos demostrativos.</p>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-12">
+                                  <div class="card h-100 primary-color">
+                                    <img src="src/coming-soon.jpg" class="img-thumbnail" role='button' alt="img-em-breve">
+                                    <div class="card-body">
+                                      <h5 class="card-title secondary-color">Em Construção</h5>
+                                      <p class="card-text secondary-color">Em breve terá mais jogos demostrativos.</p>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-12">
+                                  <div class="card h-100 primary-color">
+                                    <img src="src/coming-soon.jpg" class="img-thumbnail" role='button' alt="img-em-breve">
+                                    <div class="card-body">
+                                      <h5 class="card-title secondary-color">Em Construção</h5>
+                                      <p class="card-text secondary-color">Em breve terá mais jogos demostrativos.</p>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <!--CONTATO-->
+            <div class="container-fluid" id="Contato">
+              <h3 class="title secondary-color center">Contato</h3>
+              <div class="row" id="Contado">
+                <!---->
+
+                <div class="row mt-5">
+                  <div class="col-sm-6 contado">
+                    <a href="https://github.com/Paulohof505" target="_blank"><i class="bi bi-github secondary-color"> GitHub</i></a>
+                  </div>
+                  <div class="col-sm-6">
+                    <a href="https://steamcommunity.com/id/shallker" target="_blank"><i class="bi bi-steam secondary-color"> Steam</i></a>
+                  </div> 
+                </div>
+                <!---->
+                <div class="row">
+                  <div class="col-sm-6 contado">
+                    <a href="https://www.linkedin.com/in/paulohof-/" target="_blank"><i class="bi bi-linkedin secondary-color"> Linkedin</i></a>
+                  </div>
+                  <div class="col-sm-6">
+                    <a href="https://www.instagram.com/paulohof_/" target="_blank"><i class="bi bi-instagram secondary-color"> Instagram</i></a>
+                  </div>
+                </div>
+                <!---->
+                <div class="row">
+                  <div class="col-sm-6">
+                    <a href="mailto:pauloh.henrique750@gmail.com?"><i class="bi bi-envelope secondary-color"> E-mail</i></a>
+                  </div>
+                  <div class="col-sm-6">
+                    <a href="https://api.whatsapp.com/send?phone=5513991363412" target="_blank"><i class="bi bi-whatsapp secondary-color"> Whatsapp</i></a>
+                  </div>
+                </div>
+            </div>
+          </div>
+        
+            <!--FOOTER-->
+          <footer>
+            <div class="container-fluid mt-5 secondary-color">
+              <p>Portifolio criado por mim, Paulo Henrique <i class="bi bi-infinity green-color"></i></p>
+            </div>
+          </footer>       
+        </div>
+        
+    </main>
+    
+
+    <script src="scripts/app.js"></script>
+</body>
+</html>
