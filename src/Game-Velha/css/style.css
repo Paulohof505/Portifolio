@@ -1,0 +1,57 @@
+*{
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+.primary-color{
+    color: rgb(190, 190, 190);
+}
+
+.dark-mode{
+    color: rgb(190, 190, 190);
+    background-color: rgb(15, 15, 15);
+}
+
+#Base {
+    background-color: aqua;
+}
+
+.tam {
+    width: 100%;
+}
+
+.quad {
+    text-align: center;
+    width: 75px;
+    background: #eee;
+    display: inline-block;
+    padding: 15px;
+    font-size: 55px;
+    margin: 5px;
+    cursor: pointer;
+    color: #eee;
+}
+
+.Jogador, .Vencedor {
+    font-size: 24px;
+
+}
+
+button {
+    margin-top: 0.5em;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+@media (min-width: 768px) {
+    .quad {
+        width: 115px;
+        padding: 30px;
+    }
+    i {
+        font-size: 24px;
+    }
+
+}
